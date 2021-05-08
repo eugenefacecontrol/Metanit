@@ -6,7 +6,8 @@ namespace BasicsOfProgramming
     {
         static void Main(string[] args)
         {
-            Variables.AboutVariables();
+            new Literals().AboutLiterals();
+            new Variables().AboutVariables();
         }
     }
 }
