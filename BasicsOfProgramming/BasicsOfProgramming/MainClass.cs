@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BasicsOfProgramming
 {
@@ -10,7 +6,7 @@ namespace BasicsOfProgramming
     {
         public MainClass()
         {
-            var className = this.GetType().Name;
+            var className = GetType().Name;
             Console.WriteLine($"------------------------Type: {className}------------------------");
         }
     }
